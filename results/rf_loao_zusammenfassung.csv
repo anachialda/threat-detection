@@ -1,11 +1,11 @@
 ,,Flows_unbekannt,Recall_unbekannt,Recall_unbekannt,FPR,FPR,F1,F1
 ,,first,mean,std,mean,std,mean,std
 Unbekannter_Angriff,Variante,,,,,,,
-DoS GoldenEye,mit Port,7567,0.6898,0.0191,0.0,0.0,0.8163,0.0134
-DoS GoldenEye,ohne Port,7567,0.6987,0.0118,0.0,0.0,0.8226,0.0082
-DoS Hulk,mit Port,158469,0.3116,0.1198,0.0,0.0,0.4669,0.1364
-DoS Hulk,ohne Port,158469,0.1771,0.1524,0.0,0.0,0.2821,0.2181
-DoS Slowhttptest,mit Port,1731,0.8367,0.0359,0.0,0.0,0.9104,0.0211
-DoS Slowhttptest,ohne Port,1731,0.8321,0.0303,0.0,0.0,0.9077,0.0179
-DoS slowloris,mit Port,3596,0.5009,0.001,0.0,0.0,0.6674,0.0009
-DoS slowloris,ohne Port,3596,0.4975,0.0015,0.0,0.0,0.6643,0.0015
+DoS GoldenEye,mit Port,7567,0.7014,0.008,0.0,0.0,0.8244,0.0055
+DoS GoldenEye,ohne Port,7567,0.6924,0.0177,0.0,0.0,0.8182,0.0125
+DoS Hulk,mit Port,158469,0.2408,0.1571,0.0,0.0,0.3707,0.2078
+DoS Hulk,ohne Port,158469,0.1573,0.0606,0.0,0.0,0.2686,0.0922
+DoS Slowhttptest,mit Port,1731,0.8344,0.0569,0.0,0.0,0.9085,0.034
+DoS Slowhttptest,ohne Port,1731,0.8257,0.0151,0.0,0.0,0.904,0.0085
+DoS slowloris,mit Port,3596,0.5026,0.0028,0.0,0.0,0.6687,0.0024
+DoS slowloris,ohne Port,3596,0.4972,0.0006,0.0,0.0,0.6641,0.0004

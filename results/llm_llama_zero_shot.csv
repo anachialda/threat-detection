@@ -1,0 +1,801 @@
+flow_id,label_wahr,y,antwort,label_llm,latenz_ms,tokens_in,tokens_out,model,bedingung
+388132,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,633.3526240000538,283,28,llama3.1:8b,zero_shot
+485431,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation""
+}",ATTACK,559.1228449998198,287,24,llama3.1:8b,zero_shot
+197415,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,649.4302840001183,294,28,llama3.1:8b,zero_shot
+495186,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,648.4135850000712,303,28,llama3.1:8b,zero_shot
+26530,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,670.9413859998676,287,29,llama3.1:8b,zero_shot
+104972,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,649.2625819996647,303,28,llama3.1:8b,zero_shot
+471952,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,649.0674719998424,280,28,llama3.1:8b,zero_shot
+470842,BENIGN,0,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""All packet lengths are 0, indicating no actual data transfer""
+}",BENIGN,699.4228329999714,278,30,llama3.1:8b,zero_shot
+13817,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,654.4074680000449,297,28,llama3.1:8b,zero_shot
+11984,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,582.4497300000075,283,25,llama3.1:8b,zero_shot
+13320,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,566.4196940001602,283,25,llama3.1:8b,zero_shot
+185749,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,647.7176749999671,280,28,llama3.1:8b,zero_shot
+237195,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,652.8807780000534,294,28,llama3.1:8b,zero_shot
+438286,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,646.916906000115,286,28,llama3.1:8b,zero_shot
+410079,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,631.6067709999516,301,28,llama3.1:8b,zero_shot
+283346,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,612.0941789999961,303,28,llama3.1:8b,zero_shot
+18421,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,612.3319230000561,289,28,llama3.1:8b,zero_shot
+424667,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,613.9309529999082,294,28,llama3.1:8b,zero_shot
+123438,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,609.9826600002416,303,28,llama3.1:8b,zero_shot
+493590,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,613.4067080001842,280,28,llama3.1:8b,zero_shot
+268553,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.1528670002263,286,28,llama3.1:8b,zero_shot
+305834,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.0724740003025,289,28,llama3.1:8b,zero_shot
+10828,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance indicates potential malicious activity""
+}",ATTACK,622.2732170003837,287,25,llama3.1:8b,zero_shot
+429272,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.6246430002575,295,28,llama3.1:8b,zero_shot
+3581,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.8657970001805,298,28,llama3.1:8b,zero_shot
+28615,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.6635700001825,287,28,llama3.1:8b,zero_shot
+350201,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,680.8703800002149,294,28,llama3.1:8b,zero_shot
+412856,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,679.6537420000277,289,28,llama3.1:8b,zero_shot
+108352,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.7975460000271,303,28,llama3.1:8b,zero_shot
+370133,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.3081929999025,294,28,llama3.1:8b,zero_shot
+464333,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.4203369999159,294,28,llama3.1:8b,zero_shot
+14137,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,547.2129290001249,283,25,llama3.1:8b,zero_shot
+94867,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.9317070000798,303,28,llama3.1:8b,zero_shot
+28128,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,705.749126000228,287,29,llama3.1:8b,zero_shot
+10712,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,610.3079340000477,280,25,llama3.1:8b,zero_shot
+358020,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.3521420003781,294,28,llama3.1:8b,zero_shot
+26400,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,611.847201999808,287,28,llama3.1:8b,zero_shot
+301765,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.5190640001747,283,28,llama3.1:8b,zero_shot
+194409,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.3249399999295,280,28,llama3.1:8b,zero_shot
+13228,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,549.3204259996673,283,25,llama3.1:8b,zero_shot
+369585,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.2203069998759,299,28,llama3.1:8b,zero_shot
+412620,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.1810500002102,301,28,llama3.1:8b,zero_shot
+166785,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,690.8201820001523,303,28,llama3.1:8b,zero_shot
+247821,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,668.65793199986,283,28,llama3.1:8b,zero_shot
+240216,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,680.2920479999557,290,28,llama3.1:8b,zero_shot
+355529,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.072976000185,282,28,llama3.1:8b,zero_shot
+465745,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,677.949991999867,297,28,llama3.1:8b,zero_shot
+384686,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.157747999805,294,28,llama3.1:8b,zero_shot
+95864,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,687.8780380002354,303,28,llama3.1:8b,zero_shot
+115668,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,688.2816649999768,301,28,llama3.1:8b,zero_shot
+491527,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.5536380003286,297,28,llama3.1:8b,zero_shot
+97675,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.5113750000564,303,28,llama3.1:8b,zero_shot
+444389,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.7484280001481,290,28,llama3.1:8b,zero_shot
+492793,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.8448369999714,289,28,llama3.1:8b,zero_shot
+412639,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.8070530000332,293,28,llama3.1:8b,zero_shot
+27214,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,701.471641000353,287,29,llama3.1:8b,zero_shot
+244413,Heartbleed,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.7994809998236,315,28,llama3.1:8b,zero_shot
+340677,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,687.8821870000138,301,28,llama3.1:8b,zero_shot
+186456,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,690.4061400000501,299,28,llama3.1:8b,zero_shot
+73382,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,680.5013250000229,303,28,llama3.1:8b,zero_shot
+442059,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,689.9406590000581,299,28,llama3.1:8b,zero_shot
+17316,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.1235269999161,281,28,llama3.1:8b,zero_shot
+299498,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,680.79184599992,313,28,llama3.1:8b,zero_shot
+354791,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,670.4674500001602,285,28,llama3.1:8b,zero_shot
+191210,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,674.4076720001431,280,28,llama3.1:8b,zero_shot
+469503,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,672.2002719998272,284,28,llama3.1:8b,zero_shot
+86644,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,687.9725439998765,303,28,llama3.1:8b,zero_shot
+365494,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,693.0527009999423,303,28,llama3.1:8b,zero_shot
+235375,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.1494630000161,294,28,llama3.1:8b,zero_shot
+360188,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,672.7485579999666,280,28,llama3.1:8b,zero_shot
+470504,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,671.2227680000069,283,28,llama3.1:8b,zero_shot
+270625,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.5279280000796,290,28,llama3.1:8b,zero_shot
+154322,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.5730770000955,299,28,llama3.1:8b,zero_shot
+34148,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.5209860002324,290,28,llama3.1:8b,zero_shot
+10562,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,554.1161129999637,280,25,llama3.1:8b,zero_shot
+373479,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.6798730000737,303,28,llama3.1:8b,zero_shot
+380525,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.4718980000835,287,28,llama3.1:8b,zero_shot
+452894,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.456576000277,299,28,llama3.1:8b,zero_shot
+364055,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.517769000242,289,28,llama3.1:8b,zero_shot
+112530,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.5340319998504,303,28,llama3.1:8b,zero_shot
+31147,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation""
+}",ATTACK,601.2003549999463,287,24,llama3.1:8b,zero_shot
+24839,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,675.3108570001132,283,28,llama3.1:8b,zero_shot
+322788,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,688.4064559999388,296,28,llama3.1:8b,zero_shot
+155181,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,688.5056060000352,299,28,llama3.1:8b,zero_shot
+81655,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,691.1165239998809,301,28,llama3.1:8b,zero_shot
+412672,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,669.0597339998021,283,28,llama3.1:8b,zero_shot
+483582,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,680.3227360001074,287,28,llama3.1:8b,zero_shot
+146799,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.8442380003471,303,28,llama3.1:8b,zero_shot
+118006,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,687.5600010002927,303,28,llama3.1:8b,zero_shot
+336827,BENIGN,0,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""All packet length statistics are 0, indicating no actual data transfer""
+}",BENIGN,701.898772000277,278,31,llama3.1:8b,zero_shot
+228252,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.9619620000594,287,28,llama3.1:8b,zero_shot
+301793,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.1464949997753,295,28,llama3.1:8b,zero_shot
+26670,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,640.4132080001546,287,29,llama3.1:8b,zero_shot
+78221,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.9418060000498,303,28,llama3.1:8b,zero_shot
+32511,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.5022770002724,294,28,llama3.1:8b,zero_shot
+409545,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,687.8796519999923,303,28,llama3.1:8b,zero_shot
+493557,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,688.3619729997008,303,28,llama3.1:8b,zero_shot
+74097,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,690.9676919999583,299,28,llama3.1:8b,zero_shot
+31369,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,694.5959019999464,284,29,llama3.1:8b,zero_shot
+11976,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,549.3851580004048,283,25,llama3.1:8b,zero_shot
+455120,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,675.2326710002308,283,28,llama3.1:8b,zero_shot
+303572,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.8400319998073,300,28,llama3.1:8b,zero_shot
+372988,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.6797349999506,284,28,llama3.1:8b,zero_shot
+31373,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.2495069999568,295,28,llama3.1:8b,zero_shot
+463215,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.2922180001333,290,28,llama3.1:8b,zero_shot
+452292,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,614.4926719998693,282,28,llama3.1:8b,zero_shot
+456889,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,670.0654689998373,282,28,llama3.1:8b,zero_shot
+20288,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.4816819998887,287,28,llama3.1:8b,zero_shot
+363359,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,676.3253899998745,280,28,llama3.1:8b,zero_shot
+285109,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.3430539999863,299,28,llama3.1:8b,zero_shot
+372967,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.0110830001104,298,28,llama3.1:8b,zero_shot
+23602,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,695.3464719999829,289,28,llama3.1:8b,zero_shot
+491669,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,679.2116920000808,283,28,llama3.1:8b,zero_shot
+472342,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,680.3115559996513,292,28,llama3.1:8b,zero_shot
+349259,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.2775700003804,290,28,llama3.1:8b,zero_shot
+25383,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.8314080000127,295,28,llama3.1:8b,zero_shot
+308224,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.7101810001041,294,28,llama3.1:8b,zero_shot
+176507,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,687.8603670002121,301,28,llama3.1:8b,zero_shot
+362114,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.2245070001336,291,28,llama3.1:8b,zero_shot
+217590,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.7448870000553,294,28,llama3.1:8b,zero_shot
+368896,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.0452559997866,292,28,llama3.1:8b,zero_shot
+193975,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.1578339999942,281,28,llama3.1:8b,zero_shot
+31511,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,704.4592810002541,287,29,llama3.1:8b,zero_shot
+28341,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,612.6732570000968,287,28,llama3.1:8b,zero_shot
+22157,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,708.5625429999709,289,29,llama3.1:8b,zero_shot
+224837,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,670.494256999973,280,28,llama3.1:8b,zero_shot
+248503,Heartbleed,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.5410170001051,314,28,llama3.1:8b,zero_shot
+18293,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,700.3959720000239,281,29,llama3.1:8b,zero_shot
+27570,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,706.912406000356,287,29,llama3.1:8b,zero_shot
+448677,BENIGN,0,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""All packet lengths are 0, indicating a likely benign connection""
+}",BENIGN,677.2301239998342,278,30,llama3.1:8b,zero_shot
+217997,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,674.3326480000178,283,28,llama3.1:8b,zero_shot
+446801,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.9015050000417,294,28,llama3.1:8b,zero_shot
+247405,Heartbleed,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,689.2536940003993,314,28,llama3.1:8b,zero_shot
+416120,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,689.2970600001718,303,28,llama3.1:8b,zero_shot
+64346,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,690.4081080001561,303,28,llama3.1:8b,zero_shot
+562,BENIGN,0,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""All packet lengths are identical, indicating a likely benign TCP connection""
+}",BENIGN,712.7829599999131,277,30,llama3.1:8b,zero_shot
+111067,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.155081000019,303,28,llama3.1:8b,zero_shot
+230988,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,670.5658040000344,283,28,llama3.1:8b,zero_shot
+28824,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,609.6753329998137,287,28,llama3.1:8b,zero_shot
+416693,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.0139199998703,301,28,llama3.1:8b,zero_shot
+20985,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,685.3918060000979,288,28,llama3.1:8b,zero_shot
+92861,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.40286200025,303,28,llama3.1:8b,zero_shot
+412663,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,681.0635729998467,290,28,llama3.1:8b,zero_shot
+105617,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,679.07884799979,299,28,llama3.1:8b,zero_shot
+442704,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,680.3159649998634,294,28,llama3.1:8b,zero_shot
+417161,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.390866000318,281,28,llama3.1:8b,zero_shot
+496163,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.8904970002295,285,28,llama3.1:8b,zero_shot
+25723,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.0133960002058,290,28,llama3.1:8b,zero_shot
+485711,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.7256729997753,303,28,llama3.1:8b,zero_shot
+212375,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,678.1174430002466,281,28,llama3.1:8b,zero_shot
+200205,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,669.565098000021,281,28,llama3.1:8b,zero_shot
+390067,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,612.7694789997804,290,28,llama3.1:8b,zero_shot
+302339,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,676.2841110003137,283,28,llama3.1:8b,zero_shot
+10753,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,667.5077270001566,283,28,llama3.1:8b,zero_shot
+376299,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,670.3138429998035,283,28,llama3.1:8b,zero_shot
+495469,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,710.206229999585,282,28,llama3.1:8b,zero_shot
+10909,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,551.9140139999763,283,25,llama3.1:8b,zero_shot
+280097,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.2109760000785,297,28,llama3.1:8b,zero_shot
+31340,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,633.1864470002984,284,29,llama3.1:8b,zero_shot
+178061,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.7332879997339,303,28,llama3.1:8b,zero_shot
+159608,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.5687929999731,303,28,llama3.1:8b,zero_shot
+309480,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,680.880347999846,291,28,llama3.1:8b,zero_shot
+58253,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.2575490000418,303,28,llama3.1:8b,zero_shot
+411988,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.37272199976,303,28,llama3.1:8b,zero_shot
+27889,DoS slowloris,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,640.0414730001103,287,29,llama3.1:8b,zero_shot
+303733,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,670.23455799972,283,28,llama3.1:8b,zero_shot
+273195,BENIGN,0,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""All packet lengths are 0, indicating no actual data transfer""
+}",BENIGN,711.9630679999318,278,30,llama3.1:8b,zero_shot
+119889,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,687.3234400000001,303,28,llama3.1:8b,zero_shot
+351574,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,615.5871549999574,290,28,llama3.1:8b,zero_shot
+389674,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,672.6414789995943,283,28,llama3.1:8b,zero_shot
+258192,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,675.4870630002188,280,28,llama3.1:8b,zero_shot
+280624,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.9807719998134,294,28,llama3.1:8b,zero_shot
+12140,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,677.5997830000051,279,28,llama3.1:8b,zero_shot
+433080,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,669.6621750002123,283,28,llama3.1:8b,zero_shot
+190722,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.5346339998978,303,28,llama3.1:8b,zero_shot
+18156,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation""
+}",ATTACK,590.0492219998341,286,24,llama3.1:8b,zero_shot
+391005,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,672.9036889996678,281,28,llama3.1:8b,zero_shot
+385698,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,670.2924539999913,281,28,llama3.1:8b,zero_shot
+216623,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance indicates potential malicious activity""
+}",ATTACK,622.3781270000472,287,25,llama3.1:8b,zero_shot
+356882,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,673.8468409998859,280,28,llama3.1:8b,zero_shot
+32578,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,686.3418369998726,294,28,llama3.1:8b,zero_shot
+20314,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and maximum packet size indicate potential malicious activity""
+}",ATTACK,698.8983490000464,287,29,llama3.1:8b,zero_shot
+18435,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and max packet size indicate potential malicious activity""
+}",ATTACK,704.7475039998972,287,29,llama3.1:8b,zero_shot
+69845,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,679.3942389999756,303,28,llama3.1:8b,zero_shot
+33460,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation""
+}",ATTACK,587.9851070003497,284,24,llama3.1:8b,zero_shot
+395091,DoS GoldenEye,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.089503999985,303,28,llama3.1:8b,zero_shot
+19534,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance indicates potential malicious activity""
+}",ATTACK,624.0685239999948,287,25,llama3.1:8b,zero_shot
+14463,DoS slowloris,1,"{
+  ""label"": ""BENIGN"",
+  ""reason"": ""Low packet length variance and standard deviation""
+}",BENIGN,549.4171720001759,283,25,llama3.1:8b,zero_shot
+10422,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.7967200001694,287,28,llama3.1:8b,zero_shot
+114877,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.6736059999566,299,28,llama3.1:8b,zero_shot
+291503,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,636.6507980001188,297,28,llama3.1:8b,zero_shot
+101488,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,690.2421839999988,303,28,llama3.1:8b,zero_shot
+18505,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,684.4187830001829,289,28,llama3.1:8b,zero_shot
+64977,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,682.6470969999718,303,28,llama3.1:8b,zero_shot
+355179,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,683.8054300001204,294,28,llama3.1:8b,zero_shot
+172983,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,690.1307060002182,303,28,llama3.1:8b,zero_shot
+113257,DoS Hulk,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,688.669819000097,299,28,llama3.1:8b,zero_shot
+485263,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,613.6979660000179,281,28,llama3.1:8b,zero_shot
+23540,DoS Slowhttptest,1,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and maximum packet size indicate potential malicious activity""
+}",ATTACK,703.9363700000649,289,29,llama3.1:8b,zero_shot
+267472,BENIGN,0,"{
+  ""label"": ""ATTACK"",
+  ""reason"": ""High packet length variance and standard deviation indicate potential malicious activity""
+}",ATTACK,677.2493359999316,287,28,llama3.1:8b,zero_shot
