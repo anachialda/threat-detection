@@ -8,3 +8,5 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 data/Wednesday-WorkingHours.csv
+.env
+
